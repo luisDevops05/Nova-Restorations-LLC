@@ -36,10 +36,14 @@
   .nav-branding {
     font-size: 25px;
   }
+  .navbar {
+    padding: 0 15px;
+  }
 
   .hero-content {
     grid-template-columns: 390px;
     grid-template-rows: repeat(2, 120px);
+    text-align: left;
   }
 }
 
