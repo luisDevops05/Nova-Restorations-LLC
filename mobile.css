@@ -45,6 +45,9 @@
     grid-template-rows: repeat(2, 120px);
     text-align: left !important;
   }
+  .about-content {
+    grid-template-columns: 390px;
+  }
 }
 
 @media (max-width: 400px) {
