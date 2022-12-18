@@ -82,3 +82,35 @@ header {
 .welcome h2 {
   font-size: 40px;
 }
+
+.about-container {
+  display: grid;
+  grid-template-columns: 300px 400px;
+  justify-content: right;
+  margin-right: 95px;
+  padding-top: 120px;
+  gap: 300px;
+  color: white;
+}
+
+.about-img {
+  background-image: url("./images/aboutImg.PNG");
+  background-position: center;
+  background-size: cover;
+}
+
+#about {
+  background-color: black;
+}
+.about-header h2 {
+  font-size: 35px;
+}
+
+.about-heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
