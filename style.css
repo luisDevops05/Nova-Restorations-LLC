@@ -1,3 +1,84 @@
-body {
-  background-color: rgb(226, 156, 27);
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=PT+Mono&family=PT+Sans:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+header {
+  background-color: black;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 30px;
+}
+
+.nav-link {
+  transition: 2s ease;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-color: white;
+}
+.hero-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
+    url("./images/heroImage.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 600px;
+  grid-template-rows: repeat(2, 100px);
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.welcome h2 {
+  font-size: 40px;
 }
