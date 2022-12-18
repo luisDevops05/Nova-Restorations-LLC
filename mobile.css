@@ -45,8 +45,18 @@
     grid-template-rows: repeat(2, 120px);
     text-align: left !important;
   }
-  .about-content {
+  .about-container {
     grid-template-columns: 390px;
+    grid-template-rows: 300px 450px;
+    margin-right: 10px;
+    margin-left: 10px;
+    gap: 20px;
+    padding-top: 80px;
+  }
+
+  .about-info {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

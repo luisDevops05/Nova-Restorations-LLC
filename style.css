@@ -83,26 +83,34 @@ header {
   font-size: 40px;
 }
 
-.about-content {
+.about-container {
   display: grid;
-  grid-template-columns: 600px;
+  grid-template-columns: 300px 400px;
   justify-content: right;
-  margin-right: 40px;
+  margin-right: 95px;
+  padding-top: 120px;
+  gap: 300px;
+  color: white;
 }
 
-.about-row {
+.about-img {
+  background-image: url("./images/aboutImg.PNG");
+  background-position: center;
+  background-size: cover;
+}
+
+#about {
+  background-color: black;
+}
+.about-header h2 {
+  font-size: 35px;
+}
+
+.about-heading {
+  color: white;
   display: flex;
   justify-content: center;
+  padding-top: 40px;
   align-items: center;
-  background-color: black;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 200px;
-  padding-right: 40px;
-}
-.pic-main {
-  display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 300px;
+  flex-wrap: wrap;
 }
