@@ -15,6 +15,10 @@ a {
   color: white;
   text-decoration: none;
 }
+a:hover {
+  color: rgb(226, 127, 14);
+  transition: 1s;
+}
 p {
   line-height: 1.5;
   font-size: 18px;
@@ -47,13 +51,13 @@ body {
   font-size: 30px;
 }
 
-.nav-link {
+/* .nav-link {
   transition: 2s ease;
 }
 
 .nav-link:hover {
   color: black;
-}
+} */
 
 .hamburger {
   display: none;
@@ -165,4 +169,37 @@ body {
 
 .contact-info ul li {
   font-size: 19px;
+}
+
+.get-started-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.get-started-content {
+  border: solid white 3px;
+  padding: 2px 5px;
+}
+
+.get-started-content:hover {
+  border: solid rgb(226, 127, 14) 3px;
+  transition: 1s;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: solid white 0.5px;
+  flex-wrap: wrap;
+}
+
+#face {
+  padding-right: 20px;
 }
