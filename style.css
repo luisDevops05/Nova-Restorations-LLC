@@ -15,6 +15,10 @@ a {
   color: white;
   text-decoration: none;
 }
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
 header {
   background-color: black;
 }
@@ -137,4 +141,28 @@ body {
 
 .s {
   font-size: 20px;
+}
+
+.contact-header {
+  display: grid;
+  justify-content: center;
+  margin-top: 40px;
+
+  grid-template-columns: 1000px;
+  grid-template-rows: 80px 250px;
+}
+.contact-header h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.contact-main-con {
+  display: grid;
+  grid-template-columns: 200px 400px;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contact-info ul li {
+  font-size: 19px;
 }
