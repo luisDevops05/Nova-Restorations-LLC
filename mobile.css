@@ -153,6 +153,7 @@
 
   .services-con {
     gap: 30px;
+    flex-direction: column;
   }
   .heading-ser {
     text-align: center;
