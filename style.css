@@ -25,6 +25,9 @@ p {
 }
 header {
   background-color: black;
+  border-bottom: solid 0.5px white;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 body {
