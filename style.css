@@ -12,7 +12,8 @@ li {
 }
 
 a {
-  color: white;
+  /* color: white; */
+  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -22,17 +23,39 @@ a:hover {
 p {
   line-height: 1.5;
   font-size: 18px;
+  color: black;
 }
 header {
-  background-color: black;
+  /* background-color: black; */
+  background-color: #17365d;
   border-bottom: solid 0.5px white;
-  margin-right: 10px;
-  margin-left: 10px;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+}
+header a {
+  color: white;
 }
 
 body {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  background-color: white;
+  /* color: white; */
+  color: black;
+}
+
+#brand {
+  height: 60px;
+  width: 60px;
+}
+
+.brand {
+  display: grid;
+  text-align: center;
+  grid-template-rows: 40px 30px;
+  align-items: center;
+}
+.brandImg {
+  padding-top: 20px;
 }
 
 .navbar {
@@ -51,7 +74,7 @@ body {
 }
 
 .nav-branding {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 /* .nav-link {
@@ -117,7 +140,8 @@ body {
 }
 
 #about {
-  background-color: black;
+  /* background-color: black; */
+  background-color: white;
 }
 .about-header h2 {
   font-size: 35px;
