@@ -148,22 +148,23 @@ body {
 }
 
 .about-heading {
-  color: white;
+  /* color: white; */
+  color: black;
   display: flex;
   justify-content: center;
   padding-top: 40px;
   align-items: center;
   flex-wrap: wrap;
 }
-
+/* 
 .services-con {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 450px;
-}
+} */
 
-.heading-ser {
+/* .heading-ser {
   font-size: 35px;
 }
 .heading-ser ul li {
@@ -172,9 +173,9 @@ body {
 
 .s {
   font-size: 20px;
-}
+} */
 
-.contact-header {
+/* .contact-header {
   display: grid;
   justify-content: center;
   margin-top: 40px;
@@ -214,16 +215,24 @@ body {
 .get-started-content:hover {
   border: solid rgb(226, 127, 14) 3px;
   transition: 1s;
+} */
+footer {
+  background-color: #17365d;
 }
-
+.copyright p {
+  color: white;
+}
+footer a {
+  color: white;
+}
 .footer-main {
   display: flex;
   justify-content: space-between;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding-top: 20px;
-  border-top: solid white 0.5px;
+  /* border-top: solid white 0.5px; */
   flex-wrap: wrap;
 }
 
@@ -246,4 +255,82 @@ body {
 
 .calendly-inline-widget {
   height: 900px;
+}
+
+/* new code for contact section */
+.contact {
+  background-color: grey;
+}
+/* new code for services */
+#services {
+  background-color: grey;
+  padding-bottom: 40px;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerS {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+.brandImg {
+  text-align: center;
+  padding-top: 22px;
+}
+.list {
+  color: white;
+  font-size: 14px;
+}
+
+.list a {
+  color: white;
+}
+.list a:hover {
+  color: orange;
+}
+
+/* new code for contact */
+
+#contact {
+  background-color: #fbb03b;
+  padding-bottom: 80px;
+}
+.mainContact {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  gap: 80px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contctH h2 {
+  color: white;
+}
+
+.leftCont {
+  color: white;
+}
+
+.leftCont p {
+  color: white;
+}
+
+input {
+  border-radius: 7px;
+  border: none;
+}
+
+#submitBtn {
+  border: none;
+  border-radius: 7px;
+  background-color: #17365d;
+  color: white;
 }

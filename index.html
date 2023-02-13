@@ -27,7 +27,7 @@
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href=".//getstarted.html" class="nav-link">Get Started</a></li>
+                <!-- <li class="nav-item"><a href=".//getstarted.html" class="nav-link">Get Started</a></li> -->
 
             </ul>
             <div class="hamburger">
@@ -62,18 +62,15 @@
     </section>
 
     <section id="services"> 
-        <div class="services-main">
+        <!-- <div class="services-main">
             <div class="services-con">
                 <div class="services-left s">
                     <h2 class="heading-ser">Services</h2>
                     <ul>
                          <li>🏡 Kitchen & Bath Renovations</li>
-                         <li>🖥️ Kitchen & Bath 3D Designs</li>
-                         <li>📐 Free Estimates & Measures</li>
                          <li>👷🏽‍♂️ Handy Man Services</li>
                          <li>🎨 Exterior & Interior Painting</li>
-                         <li>🔨 Flooring</li>
-                         
+                          <li>📐 Free Estimates & Measures</li>
 
                     </ul>
                    
@@ -85,18 +82,52 @@
                         <li>⭐️ Handy Man</li>
                         <li>⭐️ Paint</li>
                         <li>⭐️ Kitchen</li>
-                        <li>⭐️ Bath</li>
+                      
                     </ul>
                 </div>
             </div>
            
            
             </div>
+        </div> -->
+        <div class="services">
+            <div class="brandS">
+                 
+                <div class="brandImg"><img id="brand" src=".//images/My project-1.png" alt=""></div>
+                <div class="brandName">
+                     <a href=".//index.html" class="nav-branding headerS">Nova Restorations</a> 
+                </div>
+              
+            </div>
+            
+            <div class="servicesMenu">
+                <div class="headerS"><h4>Services</h4></div>
+                <div class="list">
+                    <ul>
+                        <li>Kitchen & Bath Renovations</li>
+                        <li> Handy Man Services</li>
+                        <li>Exterior & Interior Painting</li>
+                         <li>Free Estimates & Measures</li>
+
+                   </ul>
+                </div>
+            </div>
+            <div class="servicesAbout">
+                <div class="headerS"><h4>More</h4></div>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Areas Served</a></li>
+                   </ul>
+                </div>
+
+            </div>
+        
         </div>
 
     </section>
 
-    <section id="contact">
+    <!-- <section id="contact">
         <div class="contact-main"> 
             <div class="contact-header"><div class="contact-headeing">
                 <h2>Contact Us</h2>
@@ -133,6 +164,38 @@
             <div class="get-started-content">
                 <a href=".//getstarted.html">Get Started</a>
             </div>
+        </div>
+    </section> -->
+
+    <section id="contact">
+        <div class="about-heading">
+            <div class="about-header contctH"><h2>Get In touch</h2></div>
+        </div>
+
+        <div class="mainContact">
+            <div class="leftCont">
+                <h3>WE'RE READY TO HELP.</h3>
+                <p>Please fill the form in and submit your request. Upon submission we'll reach back out to you withing 1-2 business days. Thank You !</p>
+
+            </div>
+            <div class="rightCont">
+<form id="form" action="https://formsubmit.co/novarestor05@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+
+
+    <label for="name">Name</label>
+     <input placeholder="Name" type="text" name="name" required>
+     <label for="email">Email</label>
+     <input placeholder="Email" type="email" name="email" required>
+     <label for="phone">Phone</label>
+     <input type="tel" placeholder="Phone" name="phone" required>
+     <label for="text"> Discription</label>
+     <input placeholder="Project Discription" type="text" name="text" required>
+     <button id="submitBtn" type="submit">Send</button>
+</form>
+            </div>
+            
+
         </div>
     </section>
 
