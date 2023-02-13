@@ -81,6 +81,10 @@
   .top {
     grid-template-columns: 650px;
   }
+
+  .mainContact {
+    grid-template-columns: 500px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -191,6 +195,19 @@
   .top {
     grid-template-columns: 380px;
   }
+  .mainContact {
+    grid-template-columns: 380px;
+  }
+  .services {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .about-header h2 {
+    margin-bottom: 40px;
+  }
+  .list2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 400px) {
@@ -228,5 +245,8 @@
   }
   .calendly-inline-widget {
     height: 850px;
+  }
+  .mainContact {
+    grid-template-columns: 310px;
   }
 }
