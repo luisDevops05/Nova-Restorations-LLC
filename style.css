@@ -264,11 +264,13 @@ footer a {
 /* new code for services */
 #services {
   background-color: grey;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
+  padding-top: 50px;
 }
 .services {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .headerS {
@@ -326,6 +328,7 @@ footer a {
 input {
   border-radius: 7px;
   border: none;
+  text-align: center;
 }
 
 #submitBtn {
