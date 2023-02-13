@@ -334,3 +334,29 @@ input {
   background-color: #17365d;
   color: white;
 }
+
+.goback {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 233px;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+.goB {
+  border: none;
+  border-radius: 7px;
+  background-color: #17365d;
+  color: white;
+  padding: 10px;
+}
+
+.goB a {
+  color: white;
+}
+
+.goB a:hover {
+  color: orange;
+}
