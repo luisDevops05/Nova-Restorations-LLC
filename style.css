@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=PT+Mono&family=PT+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Chakra+Petch:wght@500&family=PT+Mono&family=PT+Sans:ital@1&family=Play&family=Sofia+Sans:wght@300&display=swap");
 
 * {
   padding: 0;
@@ -15,6 +16,7 @@ a {
   /* color: white; */
   color: black;
   text-decoration: none;
+  font-family: "Play", sans-serif;
 }
 a:hover {
   color: rgb(226, 127, 14);
@@ -24,6 +26,15 @@ p {
   line-height: 1.5;
   font-size: 18px;
   color: black;
+}
+h2 {
+  font-family: "Play", sans-serif;
+}
+h3 {
+  font-family: "Play", sans-serif;
+}
+h4 {
+  font-family: "Play", sans-serif;
 }
 header {
   /* background-color: black; */
@@ -75,6 +86,7 @@ body {
 
 .nav-branding {
   font-size: 22px;
+  font-family: "Play", sans-serif;
 }
 
 /* .nav-link {
@@ -100,8 +112,8 @@ body {
   background-color: white;
 }
 .hero-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
-    url("./images/heroImage.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("./images/CybertekPaint.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,6 +236,7 @@ footer {
 }
 footer a {
   color: white;
+  font-family: "Play", sans-serif;
 }
 .footer-main {
   display: flex;
@@ -336,6 +349,8 @@ input {
   border-radius: 7px;
   background-color: #17365d;
   color: white;
+  font-family: "Play", sans-serif;
+  padding: 10px 0;
 }
 
 .goback {
@@ -362,4 +377,8 @@ input {
 
 .goB a:hover {
   color: orange;
+}
+
+#txtA {
+  padding: 50px 0;
 }
