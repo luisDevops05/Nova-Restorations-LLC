@@ -51,10 +51,11 @@
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: #17375dec;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.7s;
+    height: 55%;
   }
 
   .nav-item {
