@@ -1,0 +1,45 @@
+.containerPriv {
+  display: grid;
+  grid-template-columns: 1500px;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.priv-content h1,
+h2 {
+  padding: 20px 0;
+}
+
+.priv-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 1500px) {
+  .containerPriv {
+    grid-template-columns: 1200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .containerPriv {
+    grid-template-columns: 700px;
+  }
+}
+
+@media (max-width: 580px) {
+  .containerPriv {
+    grid-template-columns: 490px;
+  }
+}
+
+@media (max-width: 435px) {
+  .containerPriv {
+    grid-template-columns: 390px;
+  }
+}
+@media (max-width: 400px) {
+  .containerPriv {
+    grid-template-columns: 310px;
+  }
+}
