@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=PT+Mono&family=PT+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Chakra+Petch:wght@500&family=PT+Mono&family=PT+Sans:ital@1&family=Play&family=Sofia+Sans:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: 400px;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+  background-color: rgb(22, 22, 22);
+}
+
+.gallery div {
+  border: solid 0.2px rgb(255, 255, 255);
+}
+
+.b1 {
+  background-image: url(".//images/bathroom.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.b2 {
+  background-image: url(".//images/bathroom.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.b3 {
+  background-image: url(".//images/shower1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#gallery {
+  background-color: rgb(22, 22, 22);
+}
+#info {
+  background-color: rgb(22, 22, 22);
+  padding-bottom: 40px;
+}
+
+#info p {
+  color: white;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 800px;
+  justify-content: center;
+}
+.gallery2 {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: 400px;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+  background-color: rgb(22, 22, 22);
+}
+.k1 {
+  background-image: url(".//images/aboutImg.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.k2 {
+  background-image: url(".//images/kitchen2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.k3 {
+  background-image: url(".//images/kitchen3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

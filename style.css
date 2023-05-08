@@ -19,7 +19,7 @@ a {
   font-family: "Play", sans-serif;
 }
 a:hover {
-  color: rgb(226, 127, 14);
+  color: rgb(76, 173, 73);
   transition: 1s;
 }
 p {
@@ -38,7 +38,8 @@ h4 {
 }
 header {
   /* background-color: black; */
-  background-color: #17365d;
+  /* background-color: #17365d; */
+  background-color: rgb(22, 22, 22);
   border-bottom: solid 0.5px white;
   /* margin-right: 10px;
   margin-left: 10px; */
@@ -143,6 +144,7 @@ body {
   gap: 300px;
   color: white;
   padding-bottom: 80px;
+  background-color: rgb(22, 22, 22);
 }
 
 .about-img {
@@ -157,6 +159,7 @@ body {
 }
 .about-header h2 {
   font-size: 35px;
+  color: rgb(76, 173, 73);
 }
 
 .about-heading {
@@ -167,6 +170,7 @@ body {
   padding-top: 40px;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgb(22, 22, 22);
 }
 /* 
 .services-con {
@@ -229,7 +233,9 @@ body {
   transition: 1s;
 } */
 footer {
-  background-color: #17365d;
+  /* background-color: #17365d; */
+  background-color: rgb(22, 22, 22);
+  border-top: solid 0.5px white;
 }
 .copyright p {
   color: white;
@@ -276,7 +282,7 @@ footer a {
 }
 /* new code for services */
 #services {
-  background-color: grey;
+  background-color: rgba(22, 22, 22, 0.899);
   padding-bottom: 70px;
   padding-top: 50px;
 }
@@ -311,7 +317,8 @@ footer a {
 /* new code for contact */
 
 #contact {
-  background-color: #fbb03b;
+  /* background-color: #fbb03b; */
+  background-color: rgb(22, 22, 22);
   padding-bottom: 80px;
 }
 .mainContact {
@@ -324,10 +331,12 @@ footer a {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: white;
 }
 
 .contctH h2 {
-  color: white;
+  color: rgb(76, 173, 73);
+  margin-bottom: 45px;
 }
 
 .leftCont {
@@ -347,7 +356,7 @@ input {
 #submitBtn {
   border: none;
   border-radius: 7px;
-  background-color: #17365d;
+  background-color: rgb(76, 173, 73);
   color: white;
   font-family: "Play", sans-serif;
   padding: 10px 0;
@@ -385,4 +394,8 @@ input {
 
 .socialM {
   text-align: center;
+}
+
+.about-info p {
+  color: white;
 }

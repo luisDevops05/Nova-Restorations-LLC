@@ -29,6 +29,10 @@
   .services-con {
     gap: 200px;
   }
+  .gallery {
+    grid-template-columns: repeat(2, 400px) !important;
+    grid-template-rows: 350px 350px !important;
+  }
 }
 
 @media (max-width: 830px) {
@@ -51,7 +55,7 @@
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #17375dec;
+    background-color: #16181aec;
     width: 100%;
     text-align: center;
     transition: 0.7s;
@@ -68,8 +72,7 @@
   .about-container {
     grid-template-columns: 580px;
     gap: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+
     padding-top: 40px;
   }
   .services-con {
@@ -85,6 +88,14 @@
 
   .mainContact {
     grid-template-columns: 500px;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 350px) !important;
+    grid-template-rows: 350px 350px !important;
+  }
+  .info {
+    grid-template-columns: 650px !important;
+    padding-top: 40px;
   }
 }
 
@@ -145,8 +156,7 @@
   }
   .about-container {
     grid-template-columns: 370px;
-    margin-right: 10px;
-    margin-left: 10px;
+
     gap: 20px;
     padding-top: 20px;
   }
@@ -209,6 +219,14 @@
   .list2 {
     text-align: center;
   }
+  .gallery {
+    grid-template-columns: 380px !important;
+    grid-template-rows: 350px 350px 350px !important;
+  }
+  .info {
+    grid-template-columns: 380px !important;
+    padding-top: 40px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -249,5 +267,13 @@
   }
   .mainContact {
     grid-template-columns: 310px;
+  }
+  .gallery {
+    grid-template-columns: 310px !important;
+    grid-template-rows: 350px 350px 350px !important;
+  }
+  .info {
+    grid-template-columns: 310px !important;
+    padding-top: 40px;
   }
 }
