@@ -144,6 +144,7 @@ body {
   gap: 300px;
   color: white;
   padding-bottom: 80px;
+  background-color: rgb(22, 22, 22);
 }
 
 .about-img {
@@ -158,6 +159,7 @@ body {
 }
 .about-header h2 {
   font-size: 35px;
+  color: rgb(76, 173, 73);
 }
 
 .about-heading {
@@ -168,6 +170,7 @@ body {
   padding-top: 40px;
   align-items: center;
   flex-wrap: wrap;
+  background-color: rgb(22, 22, 22);
 }
 /* 
 .services-con {
@@ -333,6 +336,7 @@ footer a {
 
 .contctH h2 {
   color: rgb(76, 173, 73);
+  margin-bottom: 45px;
 }
 
 .leftCont {
@@ -390,4 +394,8 @@ input {
 
 .socialM {
   text-align: center;
+}
+
+.about-info p {
+  color: white;
 }
